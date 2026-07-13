@@ -31,34 +31,30 @@ temperature = -5
 
 ---
 
-# String
+## String
 
-## Apa itu String?
-
-String adalah kumpulan karakter yang diapit tanda petik.
+String adalah kumpulan karakter yang diapit tanda petik. bersifat IMMUTABLE (gabisa diubah)
 
 ```python
 name = "Fathur"
 city = 'Lhokseumawe'
 ```
 
-### Operasi yang dipelajari
+### Method string
 
-- Concatenation
-- Indexing
-- Slicing
-- String Methods
-- f-string
+Format penulisan string method adalah nama_variabel.nama_method(argumen).
 
-Contoh:
-
+String method normalnya ditulis begini
 ```python
-name = "Fathur"
-
-print(name.upper())
-print(name.lower())
-print(name.replace("F", "M"))
+nama = 'edogawa conan'
+nama.capitalize()
 ```
+
+atau bisa juga gini
+```python
+nama = 'edogawa conan'.capitalize()
+```
+
 
 ---
 
