@@ -1,5 +1,5 @@
 # list comprehension
 
-list = [i**2 for i in range(5)]
+list = [a := "Hello" for _ in range(len(a))]
 
 print(list)
