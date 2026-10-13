@@ -1,15 +1,7 @@
-def loop(n):
-    if n>0:
-        loop(n-1)
-    return n
-        
-print("recursive loop: ", loop(5))
+# list_aja = [i+5 if i % 2 == 0 else i-3 for i in range (10)]
+# print(list_aja)
 
-print('\n')
-
-def loopfor(n):
-    for n in range(n):
-        n+=1
-        return n
-
-print("loopfor: ", loopfor(5))
+# uppercase huruf pertama
+nama = ['apple', 'banana', 'orange']
+list_upper = [nama[0].upper() + nama[1:] for nama in nama]
+print(list_upper)
