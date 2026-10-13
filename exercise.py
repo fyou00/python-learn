@@ -1,5 +1,6 @@
 # list_aja = [i+5 if i % 2 == 0 else i-3 for i in range (10)]
 # print(list_aja)
+# python slicing data[start:stop:step]
 
 # uppercase huruf pertama
 nama = ['apple', 'banana', 'orange']
