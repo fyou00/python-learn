@@ -1,15 +1,19 @@
-def loop(n):
-    if n>0:
-        loop(n-1)
-    return n
-        
-print("recursive loop: ", loop(5))
+# list_aja = [i+5 if i % 2 == 0 else i-3 for i in range (10)]
+# print(list_aja)
+# python slicing data[start:stop:step]
 
-print('\n')
+# uppercase huruf pertama
+# nama = ['apple', 'banana', 'orange']
+# list_upper = [nama[0].upper() + nama[1:] for nama in nama]
+# print(list_uppers\)asd
 
-def loopfor(n):
-    for n in range(n):
-        n+=1
-        return n
+print("mengambil data dari list menggunakan loop biasa")
+data = ['cpu', 'motherboard', 'ssd']
+for i in range(len(data)):
+  print(f"Index {i}: {data[i]}")
+  
+print("=================\n")
 
-print("loopfor: ", loopfor(5))
+print("mengambil data dari list menggunakan enumerate")
+for i, data in enumerate(data):
+  print(f"Index {i}: {data}")
